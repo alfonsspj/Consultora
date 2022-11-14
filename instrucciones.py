@@ -1,32 +1,31 @@
-'''
-Realizar un sistema que permita ejecutar distintas funciones a un empleado de una consultora de trabajo.
 
-- La consultora guarda los datos de los trabajodores en un archivo llamado trabajadores.dat, la estructura de este archivo es la siguiente
+# Realizar un sistema que permita ejecutar distintas funciones a un empleado de una consultora de trabajo.
 
-Nombre,edad,dni,profesion,activo (Opcionalmente pueden agregar algunos datos mas.)
-- En activo se define si esta o no trabajando dicho trabajador.
-- Un ejemplo seria:
-Enzo,12,3223233232,Gamer,True
+# - La consultora guarda los datos de los trabajodores en un archivo llamado trabajadores.dat, la estructura de este archivo es la siguiente
 
-El Menu principal del sistema debe mostrar las siguientes opciones:
+# Nombre,edad,dni,profesion,activo (Opcionalmente pueden agregar algunos datos mas.)
+# - En activo se define si esta o no trabajando dicho trabajador.
+# - Un ejemplo seria:
+# Enzo,12,3223233232,Gamer,True
 
-[1] Gestion de Trabajadores
-[2] Reportes
-[3] Cambiar status trabajador
-[0] Salir
+# El Menu principal del sistema debe mostrar las siguientes opciones:
 
-Gestion de Trabajadores
-Debera mostrar otro menu con estas opciones:
-[1] Ingresar nuevo Trabajador
-[2] Modificar dato de trabajador (file.writelines())
-[3] Eliminar Trabajador
+# [1] Gestion de Trabajadores
+# [2] Reportes
+# [3] Cambiar status trabajador
+# [0] Salir
 
-Reportes
-[1] Mostrar trabajadores Activos
-[2] Mostrar trabajadores desocupados
-[3] Mostrar desocupados en un rango de edad
-[4] Mostrar trabajadores segun la profesion
+# Gestion de Trabajadores
+# Debera mostrar otro menu con estas opciones:
+# [1] Ingresar nuevo Trabajador
+# [2] Modificar dato de trabajador (file.writelines())   xxxx
+# [3] Eliminar Trabajador   xxxxx
 
-Cambiar status trabajador
-En esta opcion se debe buscar el trabajador por dni y cambiarle el status activo, es cuando se da de alta/baja en un trabajo
-'''
+# Reportes
+# [1] Mostrar trabajadores Activos
+# [2] Mostrar trabajadores desocupados
+# [3] Mostrar desocupados en un rango de edad
+# [4] Mostrar trabajadores segun la profesion
+
+# Cambiar status trabajador     xxxxx
+# En esta opcion se debe buscar el trabajador por dni y cambiarle el status activo, es cuando se da de alta/baja en un trabajo

@@ -15,7 +15,7 @@ while True:
     # except ValueError:
     #     print("Ingrese un numero entero")
 
-    if (opcion == 0):
+    if (opcion == 0): # opcion salir del programa
         break
     elif (opcion == 1):
 
@@ -66,6 +66,8 @@ while True:
                 #eliminarlo
 
     elif (opcion == 2):
+        
+
         print(f'''
             Reportes:
             [1] Mostrar trabajadores Activos
